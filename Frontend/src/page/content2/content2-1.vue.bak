@@ -1,0 +1,39 @@
+
+<template>
+   <div class="content-box" >
+    <div class="container">
+
+
+<div style="margin-top:50px">
+<mapShowpathplaningVue/>
+  </div>
+     
+    </div>
+    </div>
+
+</template>
+<script>
+    import mapShowpathplaningVue from '../map-showpathplaning.vue';
+   
+    import * as echarts from 'echarts';
+import MapShowtotalnumber from '../map-showtotalnumber.vue';
+    
+export default{
+    components:{
+    mapShowpathplaningVue,
+    MapShowtotalnumber
+},mounted:{
+
+},created:{
+
+},methods:{
+
+}
+}
+</script>
+
+<style scoped>
+.dynamic-change-totalnumber-echart{
+margin-top:10%;
+}
+</style>
